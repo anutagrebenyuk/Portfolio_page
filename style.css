@@ -97,3 +97,29 @@ a {
 .page-content {
   padding-top: 30px;
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  img {
+    max-width: 100%;
+    margin: 10px 0;
+  }
+  p {
+    text-align: justify;
+  }
+  .btn-project {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    padding: 30px;
+  }
+
+  .project-sm-screen p,
+  h2 {
+    margin: 20px;
+  }
+}
