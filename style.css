@@ -1,0 +1,99 @@
+:root {
+  --primary-color: cornflowerblue;
+  --background-color: rgba(125, 167, 250, 0.4);
+  --shadow-style: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  --border-style: 1px solid var(--primary-color);
+  --2-background-color: #feffdf;
+  --2-primary-color: #ffa952;
+}
+body {
+  margin: 30px auto;
+  max-width: 1000px;
+}
+h1 {
+  color: var(--primary-color);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #393e46;
+  font-size: 70px;
+  padding-top: 30px;
+}
+h2 {
+  font-size: 48px;
+}
+h3 {
+  font-size: 25px;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  line-height: 1em;
+}
+a {
+  text-decoration: none;
+}
+
+.main-links {
+  display: flex;
+  justify-content: center;
+}
+.main-links:hover {
+  cursor: pointer;
+}
+
+.contact-link,
+.about-link,
+.return-link,
+.btn-project {
+  border: var(--border-style);
+  border-radius: 14px;
+  box-shadow: var(--shadow-style);
+  padding: 10px 30px;
+  margin: 30px 30px;
+}
+.contact-link,
+.return-link,
+.btn-project {
+  background: var(--background-color);
+}
+.contact-link:hover {
+  background: white;
+}
+.about-link:hover {
+  background: var(--background-color);
+}
+.return-link:hover {
+  background: white;
+}
+.email-details {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+}
+.email:hover {
+  text-decoration: underline;
+}
+.email-details span {
+  color: var(--primary-color);
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.img-thumbnail {
+  padding: 2px;
+}
+.navbar {
+  position: fixed;
+}
+.container-fluid {
+  max-width: 1000px;
+}
+.projects-list {
+  padding-top: 10px;
+}
+.page-content {
+  padding-top: 30px;
+}
